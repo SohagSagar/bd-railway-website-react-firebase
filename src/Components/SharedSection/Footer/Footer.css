@@ -1,0 +1,42 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-top: 2px solid #006847;
+}
+.bd-railway-logo{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-top: 15px;
+}
+.bd-railway-logo img{
+    width: 55px;
+}
+.railway-slogan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.railway-slogan h3{
+    color: #DA924E;
+    font-weight: 600;
+    font-size: 1.3em;
+}
+.railway-slogan p{
+    color: #006847;
+    font-size: 0.8em;
+}
+
+.shohoz-logo h3{
+    line-height: 0.1;
+    font-weight: 600;
+    color: #006847;
+}
+.shohoz-logo p{
+    line-height: 0.4;
+    font-weight: bold;
+}

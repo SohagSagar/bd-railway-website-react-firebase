@@ -1,0 +1,16 @@
+.payments-options{
+    margin-top: 100px;
+}
+.methods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 0;
+}
+.payments-options p{
+    text-align: center;
+    margin: 80px 0;
+    font-family:sans-serif;
+}

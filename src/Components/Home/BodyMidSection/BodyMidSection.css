@@ -1,0 +1,20 @@
+.body-mid-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.body-mid-section img{
+    height: 200px;
+    width: 180px;
+}
+.body-mid-section h3{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.body-mid-section p{
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+}

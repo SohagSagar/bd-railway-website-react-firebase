@@ -1,0 +1,28 @@
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.destination-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px 40px;
+}
+label{
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+input{
+    height: 35px;
+    
+}
+.form-control:focus {
+    border-color: #079D49 !important;
+    box-shadow: none !important;
+  }
+
+.top-banner-img img{
+    border-radius: 10px;
+    width: 550px; 
+}
