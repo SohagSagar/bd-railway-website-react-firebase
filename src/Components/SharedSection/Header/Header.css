@@ -52,3 +52,18 @@
     gap: 40px   ;
 
 }
+.hamberger-icon{
+    font-size: 1.6em;
+    color: #006847;
+    display: none;
+}
+
+
+/* @media screen and (max-width:500px) {
+    .hamberger-icon{
+        display: block;
+    }
+    .menu-links{
+        flex-direction: column;
+    }
+} */

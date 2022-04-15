@@ -4,8 +4,8 @@ import Footer from '../../SharedSection/Footer/Footer';
 import './Login.css'
 const Login = () => {
     return (
-        <div className='container'>
-            <div className="login-section ">
+        <div className='container login-section'>
+            <div className="login-container ">
                 <div className='forgot-pass-heading'>
                     <p style={{ color: '#DA924E', fontWeight: '600' }}>Forgot Password?</p>
                     <p style={{ coloe: '#B3B9BC', fontWeight: '600' }}>Need Help?</p>
@@ -36,7 +36,7 @@ const Login = () => {
             </div>
 
 
-            {/* <Footer></Footer> */}
+            <Footer></Footer>
         </div>
     );
 };

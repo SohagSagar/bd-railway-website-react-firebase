@@ -22,7 +22,7 @@
     align-items: center;
 }
 .railway-slogan h3{
-    color: #DA924E;
+    color: #DA924E !important;
     font-weight: 600;
     font-size: 1.3em;
 }
@@ -39,4 +39,60 @@
 .shohoz-logo p{
     line-height: 0.4;
     font-weight: bold;
+}
+
+
+/* media queries for mobile screen max-size 400px */
+
+@media screen and (max-width: 400px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .railway-slogan h3{
+        font-size: 1em;
+        line-height: 0.2;
+    }
+    .railway-slogan p{
+        font-size: 0.6em;
+        margin-bottom: 0;
+    }
+    .bd-railway-logo{
+        margin-bottom: 15px;
+    }
+    .shohoz-logo p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .shohoz-logo h3{
+        font-size: 1em;
+    }
+}
+
+/* media queries for mobile screen (min-width: 400px) and (max-width:600px) */
+@media screen and (min-width: 400px) and (max-width:600px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .railway-slogan h3{
+        font-size: 1em;
+        line-height: 0.2;
+    }
+    .railway-slogan p{
+        font-size: 0.6em;
+        margin-bottom: 0;
+    }
+    .bd-railway-logo{
+        margin-bottom: 15px;
+    }
+    .shohoz-logo p{
+        font-size: 0.8em;
+        text-align: center;
+    }
+    .shohoz-logo h3{
+        font-size: 1em;
+    }
 }

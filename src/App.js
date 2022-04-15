@@ -1,10 +1,10 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Contract from './Components/Home/Contract/Contract';
 import Home from './Components/Home/Home/Home';
 import Login from './Components/Home/Login/Login';
+import Contract from './Components/Contract/Contract'
 import Register from './Components/Home/Register/Register';
-import VerifyTicket from './Components/Home/VerifyTicket/VerifyTicket';
+import VerifyTicket from './Components/VerifyTicket/VerifyTicket';
 import Header from './Components/SharedSection/Header/Header';
 
 

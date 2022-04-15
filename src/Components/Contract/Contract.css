@@ -1,0 +1,59 @@
+.contract-section{
+    margin-top: 50px;
+}
+.contract-section h3{
+    color: #006847;
+}
+.bkash-issue{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.report-heading{
+    line-height: 0.2;
+    margin-top: 10px;
+    color: #8792A2;
+    
+}
+.unsuccessful-issue{
+    width: 500px;
+}
+.unsuccessful-issue,.support{
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.support {
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+
+/* media queries for mobile screen max-size 400px */
+
+@media screen and (max-width: 400px){
+    .unsuccessful-issue{
+        width: 340px;
+    }
+    .report-heading{
+        line-height: 1.2;
+    }
+    .support {
+        width: 340px;
+    }
+}
+
+/* media queries for mobile screen (min-width: 400px) and (max-width:600px) */
+@media screen and (min-width: 400px) and (max-width:600px){
+    .unsuccessful-issue{
+        width: 390px;
+    }
+    .report-heading{
+        line-height: 1.2;
+    }
+    .support {
+        width: 390px;
+    }
+}
